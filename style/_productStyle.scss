@@ -1,0 +1,451 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+};
+
+body {
+    width: 100%;
+    height: 100vh;
+};
+
+
+.initialHeader {
+    width: 100%;
+    height: 48px;
+    padding: 0px 100px 0px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    background-color: black;
+    color: white;
+
+    p {
+        font-family: "Poppins";
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    a {
+        font-family: "Poppins";
+        font-weight: 600;
+        color: white;
+    }
+
+    select {
+        border: none;
+        background: transparent;
+        color: white;
+        font-family: "Poppins";
+        position: relative;
+        left: 225px;
+    }
+}
+
+main {
+
+    .header-on-site {
+        width: 1170px;
+        height: 38px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 200px;
+        position: relative;
+        top: 40px;
+
+
+        .logo {
+            cursor: pointer;
+        }
+
+        nav {
+            position: relative;
+            left: 30px;
+            ul {
+                list-style: none;
+                display:flex;
+                align-items: center;
+                gap: 25px;
+
+                li {
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: center;
+                }
+            }
+        }
+
+        .icons-header {
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 200px;
+        
+    
+        .product {
+
+            .divPrisec {
+                position: relative;
+                top: -630px;
+                left: 750px;
+                display: inline;
+
+                .ratingCount {
+                    position: relative;
+                    top: -20px;
+                    left: 20px;
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                }
+
+                .ratingCount {
+                    width: 95px;
+                }
+
+                .title {
+                    width: 304px;
+                    font-family: "Inter";
+                    font-weight: 600;
+                    font-size: 24px;
+                    letter-spacing: 3%;
+                }
+
+                .description {
+                    width: 373px;
+                    height: 63px;
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    padding-top: 30px;
+                }
+
+                .pricee {
+                    font-family: "Inter";
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 24px;
+                    letter-spacing: 3%;
+                    position: relative;
+                    top: 40px;
+                }
+            }
+
+            .titlesMenu {
+                font-family: "Poppins";
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                position: relative;
+                top: -100px;
+            }
+
+            img {
+                width: 500px;
+                height: 600px;
+            }
+        }
+
+        .line2 {
+            width: 350px;
+            height: 1px;
+            background-color: grey;
+            position: relative;
+            top: 450px;
+            left: 750px;
+        }
+
+        .colourDiv {
+            width: 155px;
+            height: 20px;
+            display: flex;
+            gap: 10px;
+            position: relative;
+            top: 480px;
+            left: 750px;
+
+            p {
+                font-family: "Inter";
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 3%;
+            }
+        }
+
+        .sizeDiv {
+            width: 300px;
+            height: 32px;
+            display: flex;
+            gap: 20px;
+            position: relative;
+            top: 510px;
+            left: 750px;
+
+            p {
+                font-family: "Inter";
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 3%;
+                padding-top: 5px;
+            }
+        }
+
+        .BuyDiv {
+            width: 400px;
+            display: flex;
+            gap: 15px;
+            position: relative;
+            top: 530px;
+            left: 750px;
+
+            button {
+                width: 165px;
+                height: 44px;
+                border-radius: 4px;
+                padding: 10px 48px 10px 48px;
+                background-color: #DB4444;
+                border: none;
+                color: white;
+            }
+        }
+    }
+}
+
+
+// Tablet Responsive Version 
+
+@media (max-width:780px) and (min-width:480px){
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .initialHeader {
+        width: 100%;
+        height: 48px;
+        padding: 0px 30px 0px 30px;
+
+        P {
+            font-size: 10px;
+            text-align: start;
+        }
+
+        a {
+            font-size: 10px;
+        }
+
+        select {
+            display: none;
+        }
+        
+    }
+
+    main {
+        width: 100%;
+        padding: 0px 10px 0px 40px;
+
+
+        .header-on-site {
+            width: 100%;
+            position: relative;
+            left: -20px;
+
+            .logo{
+                position: relative;
+            }
+
+            nav {
+                ul {
+                    width: 300px;
+                    position: relative;
+                    left: -100px;
+                     li {
+                        font-size: 14px;
+                     }
+                }
+            }
+        }
+
+        .icons-header {
+            img {
+                display: none;
+            }
+        }
+
+        .container {
+            position: relative;
+            top: -90px;
+            width: 100%;
+            margin-top: 200px;
+            
+        
+            .product {
+    
+                .divPrisec {
+                    position: relative;
+                    top: 80px;
+                    left: -20px;
+                    display: inline;
+                    margin-bottom: 20px;
+    
+                    .ratingCount {
+                        position: relative;
+                        top: -20px;
+                        left: 20px;
+                        font-family: "Poppins";
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                    }
+    
+                    .ratingCount {
+                        width: 95px;
+                    }
+    
+                    .title {
+                        width: 304px;
+                        font-family: "Inter";
+                        font-weight: 600;
+                        font-size: 24px;
+                        letter-spacing: 3%;
+                    }
+    
+                    .description {
+                        width: 373px;
+                        height: 63px;
+                        font-family: "Poppins";
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 21px;
+                        padding-top: 30px;
+                    }
+    
+                    .pricee {
+                        font-family: "Inter";
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 24px;
+                        letter-spacing: 3%;
+                        position: relative;
+                        top: 40px;
+                    }
+                }
+    
+                .titlesMenu {
+                    font-family: "Poppins";
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    position: relative;
+                    top: -100px;
+                }
+    
+                img {
+                    margin-left: 80px;
+                    width: 500px;
+                    height: 600px;
+                }
+            }
+    
+            .line2 {
+                width: 350px;
+                height: 1px;
+                background-color: grey;
+                position: relative;
+                top: 450px;
+                left: 750px;
+                display: none;
+            }
+
+            .coontaiiner {
+                width: 500px;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                top: 400px;
+                right: 390px;
+
+                .colourDiv {
+                    width: 155px;
+                    height: 20px;
+                    display: flex;
+                    gap: 10px;
+                    position: relative;
+                    top: 480px;
+                    left: 750px;
+        
+                    p {
+                        font-family: "Inter";
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 20px;
+                        letter-spacing: 3%;
+                    }
+                }
+        
+                .sizeDiv {
+                    width: 300px;
+                    height: 32px;
+                    display: flex;
+                    gap: 20px;
+                    position: relative;
+                    top: 510px;
+                    left: 750px;
+        
+                    p {
+                        font-family: "Inter";
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 20px;
+                        letter-spacing: 3%;
+                        padding-top: 5px;
+                    }
+                }
+        
+                .BuyDiv {
+                    width: 400px;
+                    display: flex;
+                    gap: 15px;
+                    position: relative;
+                    top: 530px;
+                    left: 750px;
+        
+                    button {
+                        width: 165px;
+                        height: 44px;
+                        border-radius: 4px;
+                        padding: 10px 48px 10px 48px;
+                        background-color: #DB4444;
+                        border: none;
+                        color: white;
+                    }
+
+                    .heart {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+
+        .spaceee {
+            height: 40px;
+        }
+    }
+}

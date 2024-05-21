@@ -1,0 +1,1200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.top-header {
+  width: 100%;
+  height: 48px;
+  padding: 0px 100px 0px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+}
+.top-header p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.top-header a {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+}
+.top-header select {
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  position: relative;
+  left: 225px;
+}
+
+main {
+  width: 100%;
+  padding: 0px 170px 0px 170px;
+}
+main .site-header {
+  width: 1170px;
+  height: 38px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  top: 40px;
+}
+main .site-header .logo {
+  cursor: pointer;
+}
+main .site-header nav {
+  position: relative;
+  left: 30px;
+}
+main .site-header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+main .site-header nav ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+main .site-header .header-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .heroSection {
+  width: 100%;
+  height: 344px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px;
+  color: white;
+}
+main .heroSection .articles {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -35px;
+}
+main .heroSection .articles .apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+  left: -65px;
+}
+main .heroSection .articles article h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 4px;
+  padding: 20px 0px 20px 0px;
+}
+main .heroSection .articles article .rightArrow {
+  display: flex;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 10px;
+}
+main .heroSection .articles article .rightArrow img {
+  position: relative;
+  top: 2px;
+}
+main .heroSection .articles article img {
+  position: relative;
+  top: -8px;
+}
+main .heroSection .phone {
+  position: relative;
+  left: -200px;
+  top: 8px;
+}
+main .categorySection {
+  margin-top: 100px;
+}
+main .categorySection h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 4%;
+  padding: 20px 0px 0px 0px;
+}
+main .categorySection .cardImages {
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  margin-top: 70px;
+}
+main .line {
+  width: 100%;
+  height: 1px;
+  background-color: grey;
+  margin-top: 80px;
+}
+main .products {
+  width: 100%;
+  margin: 80px;
+}
+main .products .image {
+  position: relative;
+  left: -80px;
+}
+main .products .imagess {
+  display: inline;
+  gap: 10px;
+  position: relative;
+  top: 35px;
+  left: 840px;
+}
+main .products .container {
+  width: 1170px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  gap: 30px;
+  position: relative;
+  left: -85px;
+  top: 100px;
+}
+main .products .container .li {
+  width: 270px;
+  height: 322px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #F5F5F5;
+}
+main .products .container .li img {
+  width: 200px;
+  height: 200px;
+}
+main .products .container .li .div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main .products .container .li .title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 10px;
+}
+main .products .container .li .price {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #DB4444;
+}
+main .products .container .li .count {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+main .products .container .li .liImage {
+  background-color: grey;
+}
+main .musicSection {
+  width: 100%;
+  height: 500px;
+  margin-top: 200px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: -8px;
+}
+main .musicSection .sectionMusic {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 80px;
+}
+main .musicSection .sectionMusic p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00FF66;
+}
+main .musicSection .sectionMusic h1 {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 4%;
+  color: white;
+}
+main .musicSection .sectionMusic button {
+  width: 171px;
+  height: 56px;
+  border-radius: 4px;
+  background-color: #00FF66;
+  color: white;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .spacee {
+  width: 100%;
+  height: 50px;
+}
+
+@media (max-width: 780px) and (min-width: 480px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  .top-header {
+    width: 100%;
+    height: 48px;
+    padding: 0px 30px 0px 30px;
+  }
+  .top-header P {
+    font-size: 10px;
+    text-align: start;
+  }
+  .top-header a {
+    font-size: 10px;
+  }
+  .top-header select {
+    display: none;
+  }
+  main {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+  }
+  main .site-header {
+    width: 100%;
+    position: relative;
+    left: 100px;
+  }
+  main .site-header .logo {
+    position: relative;
+  }
+  main .site-header nav ul {
+    width: 300px;
+    position: relative;
+    left: -100px;
+  }
+  main .site-header nav ul li {
+    font-size: 14px;
+  }
+  main .header-icons img {
+    display: none;
+  }
+  main .heroSection {
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    color: white;
+    position: relative;
+    left: -15px;
+  }
+  main .heroSection .articles {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30px;
+  }
+  main .heroSection .articles .apple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    position: relative;
+    left: -30px;
+  }
+  main .heroSection .articles article h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    padding: 20px 0px 20px 0px;
+  }
+  main .heroSection .articles article .rightArrow {
+    display: flex;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    gap: 10px;
+  }
+  main .heroSection .articles article .rightArrow img {
+    position: relative;
+    top: 2px;
+  }
+  main .heroSection .articles article img {
+    position: relative;
+    top: -8px;
+  }
+  main .heroSection .phone {
+    width: 370px;
+    height: 270px;
+    position: relative;
+    left: 0px;
+    top: 8px;
+  }
+  main .categorySection {
+    margin-top: 100px;
+  }
+  main .categorySection h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 4%;
+    padding: 20px 0px 0px 0px;
+  }
+  main .categorySection .cardImages {
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 70px;
+  }
+  main .categorySection .cardImages img {
+    width: 125px;
+    height: 95px;
+  }
+  main .products {
+    width: 100%;
+    margin: 80px;
+  }
+  main .products .image {
+    position: relative;
+    left: -80px;
+  }
+  main .products .imagess {
+    display: inline;
+    gap: 10px;
+    position: relative;
+    top: 95px;
+    left: 360px;
+  }
+  main .products .container {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    top: 50px;
+    padding: 10px;
+    position: relative;
+    left: -100px;
+  }
+  main .products .container .li {
+    width: 350px;
+    height: 380px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #F5F5F5;
+  }
+  main .products .container .li img {
+    width: 200px;
+    height: 200px;
+  }
+  main .products .container .li .div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  main .products .container .li .title {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 10px;
+  }
+  main .products .container .li .price {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DB4444;
+  }
+  main .products .container .li .count {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  main .products .container .li .liImage {
+    background-color: grey;
+  }
+  main .musicSection {
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -15px;
+  }
+  main .musicSection .sectionMusic {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 100px;
+    position: relative;
+    left: 5px;
+  }
+  main .musicSection .sectionMusic p {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    color: #00FF66;
+  }
+  main .musicSection .sectionMusic h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 4%;
+    color: white;
+  }
+  main .musicSection .sectionMusic button {
+    width: 150px;
+    height: 56px;
+    border-radius: 5px;
+    background-color: #00FF66;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  main .musicSection .sectionMusic .musicImages img {
+    width: 50px;
+    height: 50px;
+  }
+  main .musicSection .speaker {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  main .spacee {
+    width: 100%;
+    height: 50px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.initialHeader {
+  width: 100%;
+  height: 48px;
+  padding: 0px 100px 0px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+}
+.initialHeader p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.initialHeader a {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+}
+.initialHeader select {
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  position: relative;
+  left: 225px;
+}
+
+main .header-on-site {
+  width: 1170px;
+  height: 38px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  top: 40px;
+}
+main .header-on-site .logo {
+  cursor: pointer;
+}
+main .header-on-site nav {
+  position: relative;
+  left: 30px;
+}
+main .header-on-site nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+main .header-on-site nav ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+main .header-on-site .icons-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .container {
+  width: 100%;
+  margin-top: 200px;
+}
+main .container .product .divPrisec {
+  position: relative;
+  top: -630px;
+  left: 750px;
+  display: inline;
+}
+main .container .product .divPrisec .ratingCount {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+main .container .product .divPrisec .ratingCount {
+  width: 95px;
+}
+main .container .product .divPrisec .title {
+  width: 304px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 3%;
+}
+main .container .product .divPrisec .description {
+  width: 373px;
+  height: 63px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  padding-top: 30px;
+}
+main .container .product .divPrisec .pricee {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  position: relative;
+  top: 40px;
+}
+main .container .product .titlesMenu {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  position: relative;
+  top: -100px;
+}
+main .container .product img {
+  width: 500px;
+  height: 600px;
+}
+main .container .line2 {
+  width: 350px;
+  height: 1px;
+  background-color: grey;
+  position: relative;
+  top: 450px;
+  left: 750px;
+}
+main .container .colourDiv {
+  width: 155px;
+  height: 20px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 480px;
+  left: 750px;
+}
+main .container .colourDiv p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 3%;
+}
+main .container .sizeDiv {
+  width: 300px;
+  height: 32px;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  top: 510px;
+  left: 750px;
+}
+main .container .sizeDiv p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 3%;
+  padding-top: 5px;
+}
+main .container .BuyDiv {
+  width: 400px;
+  display: flex;
+  gap: 15px;
+  position: relative;
+  top: 530px;
+  left: 750px;
+}
+main .container .BuyDiv button {
+  width: 165px;
+  height: 44px;
+  border-radius: 4px;
+  padding: 10px 48px 10px 48px;
+  background-color: #DB4444;
+  border: none;
+  color: white;
+}
+
+@media (max-width: 780px) and (min-width: 480px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+  .initialHeader {
+    width: 100%;
+    height: 48px;
+    padding: 0px 30px 0px 30px;
+  }
+  .initialHeader P {
+    font-size: 10px;
+    text-align: start;
+  }
+  .initialHeader a {
+    font-size: 10px;
+  }
+  .initialHeader select {
+    display: none;
+  }
+  main {
+    width: 100%;
+    padding: 0px 10px 0px 40px;
+  }
+  main .header-on-site {
+    width: 100%;
+    position: relative;
+    left: -20px;
+  }
+  main .header-on-site .logo {
+    position: relative;
+  }
+  main .header-on-site nav ul {
+    width: 300px;
+    position: relative;
+    left: -100px;
+  }
+  main .header-on-site nav ul li {
+    font-size: 14px;
+  }
+  main .icons-header img {
+    display: none;
+  }
+  main .container {
+    position: relative;
+    top: -90px;
+    width: 100%;
+    margin-top: 200px;
+  }
+  main .container .product .divPrisec {
+    position: relative;
+    top: 80px;
+    left: -20px;
+    display: inline;
+    margin-bottom: 20px;
+  }
+  main .container .product .divPrisec .ratingCount {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  main .container .product .divPrisec .ratingCount {
+    width: 95px;
+  }
+  main .container .product .divPrisec .title {
+    width: 304px;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 3%;
+  }
+  main .container .product .divPrisec .description {
+    width: 373px;
+    height: 63px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 30px;
+  }
+  main .container .product .divPrisec .pricee {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    position: relative;
+    top: 40px;
+  }
+  main .container .product .titlesMenu {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    top: -100px;
+  }
+  main .container .product img {
+    margin-left: 80px;
+    width: 500px;
+    height: 600px;
+  }
+  main .container .line2 {
+    width: 350px;
+    height: 1px;
+    background-color: grey;
+    position: relative;
+    top: 450px;
+    left: 750px;
+    display: none;
+  }
+  main .container .coontaiiner {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 400px;
+    right: 390px;
+  }
+  main .container .coontaiiner .colourDiv {
+    width: 155px;
+    height: 20px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 480px;
+    left: 750px;
+  }
+  main .container .coontaiiner .colourDiv p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 3%;
+  }
+  main .container .coontaiiner .sizeDiv {
+    width: 300px;
+    height: 32px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 510px;
+    left: 750px;
+  }
+  main .container .coontaiiner .sizeDiv p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 3%;
+    padding-top: 5px;
+  }
+  main .container .coontaiiner .BuyDiv {
+    width: 400px;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    top: 530px;
+    left: 750px;
+  }
+  main .container .coontaiiner .BuyDiv button {
+    width: 165px;
+    height: 44px;
+    border-radius: 4px;
+    padding: 10px 48px 10px 48px;
+    background-color: #DB4444;
+    border: none;
+    color: white;
+  }
+  main .container .coontaiiner .BuyDiv .heart {
+    display: none;
+  }
+  main .spaceee {
+    height: 40px;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.header-top {
+  width: 100%;
+  height: 48px;
+  padding: 0px 100px 0px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  background-color: black;
+  color: white;
+}
+.header-top p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+.header-top a {
+  font-family: "Poppins";
+  font-weight: 600;
+  color: white;
+}
+.header-top select {
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: "Poppins";
+  position: relative;
+  left: 225px;
+}
+
+main .header-on-site {
+  width: 1170px;
+  height: 38px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  position: relative;
+  top: 40px;
+}
+main .header-on-site .logo {
+  cursor: pointer;
+}
+main .header-on-site nav {
+  position: relative;
+  left: 30px;
+}
+main .header-on-site nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+main .header-on-site nav ul li {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+main .header-on-site .icons-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .flexDiv {
+  display: flex;
+  margin-top: 120px;
+  gap: 80px;
+}
+main .flexDiv img {
+  width: 850px;
+  height: 650px;
+}
+main .flexDiv article h1 {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 4%;
+}
+main .flexDiv article p {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .flexDiv input {
+  border: none;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  outline: none;
+}
+main .flexDiv input::-moz-placeholder {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .flexDiv input::placeholder {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .flexDiv b {
+  font-family: "Inter";
+  margin-right: 10px;
+  color: #DB4444;
+}
+main .flexDiv button {
+  width: 143px;
+  height: 56px;
+  border-radius: 4px;
+  padding: 16px 48px 16px 48px;
+  border: none;
+  background-color: #DB4444;
+  color: white;
+}
+main .spaceDiv {
+  width: 50px;
+  height: 80px;
+}
+
+@media (max-width: 780px) and (min-width: 480px) {
+  .top-header {
+    width: 100%;
+    height: 48px;
+    padding: 0px 30px 0px 30px;
+  }
+  .top-header P {
+    font-size: 10px;
+    text-align: start;
+  }
+  .top-header a {
+    font-size: 10px;
+  }
+  main {
+    width: 100%;
+  }
+  main .site-header {
+    position: relative;
+    right: 260px;
+  }
+  main .site-header nav ul {
+    position: relative;
+    right: 300px;
+  }
+  main .site-header nav ul li {
+    font-size: 14px;
+  }
+  main .flexDiv {
+    position: relative;
+    right: 130px;
+    margin-left: 120px;
+  }
+  main .flexDiv img {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 50px;
+  }
+  main .flexDiv .container {
+    position: relative;
+    top: -150px;
+  }
+  main .flexDiv .container article {
+    width: 250px;
+  }
+  main .flexDiv .container article h1 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2%;
+  }
+  main .flexDiv .container form b {
+    font-family: "Inter";
+    font-size: 14px;
+    padding-top: -20px;
+    color: #DB4444;
+  }
+  main .flexDiv .container form button {
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px 48px 10px 48px;
+    border: none;
+    background-color: #DB4444;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .top-header {
+    width: 100%;
+    height: 48px;
+    padding: 0px 15px 0px 15px;
+  }
+  .top-header P {
+    font-size: 10px;
+    text-align: start;
+  }
+  .top-header a {
+    font-size: 10px;
+  }
+  main {
+    width: 100%;
+  }
+  main .site-header {
+    position: relative;
+    right: 260px;
+  }
+  main .site-header .imageLogo {
+    width: 80px;
+    height: 30px;
+  }
+  main .site-header nav ul {
+    position: relative;
+    right: 530px;
+    top: 10px;
+  }
+  main .site-header nav ul li {
+    font-size: 12px;
+  }
+  main .flexDiv {
+    position: relative;
+    right: 250px;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  main .flexDiv img {
+    width: 400px;
+    height: 400px;
+    padding-bottom: 50px;
+  }
+  main .flexDiv .container {
+    position: relative;
+    top: -280px;
+    left: 70px;
+  }
+  main .flexDiv .container article {
+    width: 250px;
+  }
+  main .flexDiv .container article h1 {
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 2%;
+  }
+  main .flexDiv .container form {
+    width: 300px;
+  }
+  main .flexDiv .container form b {
+    font-family: "Inter";
+    font-size: 14px;
+    padding-top: -20px;
+    color: #DB4444;
+  }
+  main .flexDiv .container form button {
+    width: 130px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 10px 48px 10px 48px;
+    border: none;
+    background-color: #DB4444;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
